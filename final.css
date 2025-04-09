@@ -1,0 +1,96 @@
+body {
+    background-image: url(img/purplebackground.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-color: honeydew;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    background-color: #f6c1c1;
+    padding: 20px;
+    margin: 10px 0 0;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    animation: fadeIn 2s forwards;
+    }
+    @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: plum;
+        background-color: transparent;
+        border: 5px solid black;
+        border-radius: 10px;
+        font-weight: bold;
+    font-family: 'Quicksand' , sans-serif;
+    }
+
+   
+
+
+      video {
+        max-width: 500px;
+        border: 5px solid white;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+.button-list {
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.buttons {
+
+    width: 150px;
+    height: 75px;
+    background-color: plum;
+    border: 5px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+
+
+    transform: scale(1.1);
+}
+
+main {
+    padding: auto;
+    text-align: center;
+    animation: fadeIn 2s forwards;
+    }
+    @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+    }
+
+footer {
+        text-align: center;
+        background-color: #f6c1c1;
+        padding: 15px;
+        margin-top: 30px;
+      }
